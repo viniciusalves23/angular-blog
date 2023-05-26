@@ -1,0 +1,7 @@
+
+/*laptop*/
+@media screen and (min-width:768px) {
+  .container__menu-title > h1{
+    font-size: 30px;
+  }
+}

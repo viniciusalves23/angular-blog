@@ -1,11 +1,8 @@
-.container__menu-title{
-  color: white;
-}
-
 .container__menu-title > h1{
+  color: #ffff;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 135px;
+  font-size: 30px;
   font-family: 'segoe UI';
   display: flex;
   justify-content: center;

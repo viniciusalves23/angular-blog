@@ -1,0 +1,29 @@
+@media screen and (min-width:768px) {
+  .container__small-card{
+    width: auto;
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+
+  .container__small-card-content{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .small-card__photo > img {
+    width: 100px;
+    min-width: 100px;
+    margin-right: 20px;
+  }
+
+  .small-card__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container__small-card__separator{
+    margin-top: 10px;
+  }
+
+}

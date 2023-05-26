@@ -1,0 +1,28 @@
+/* tablet */
+@media screen and (min-width: 768px) {
+  .container__menu-bar > ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container__menu-bar > ul > li{
+    margin-right: 20px;
+    list-style: none;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) {
+  .container__menu-bar > ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container__menu-bar > ul > li{
+    margin-right: 20px;
+    list-style: none;
+  }
+}
+
+
+
