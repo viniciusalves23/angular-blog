@@ -1,29 +1,42 @@
 @media screen and (min-width:768px) {
-  .container__small-card{
-    width: auto;
-    margin-bottom: 15px;
-    margin-top: 0px;
-  }
-
-  .container__small-card-content{
+  .small-card__photo{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items:center;
   }
 
   .small-card__photo > img {
-    width: 100px;
-    min-width: 100px;
-    margin-right: 20px;
+    width: 130px;
+    min-width: 130px;
+    height: auto;
   }
 
   .small-card__title{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
   }
 
-  .container__small-card__separator{
-    margin-top: 10px;
+}
+
+@media screen and (min-width:1024px) {
+  .small-card__photo > img {
+    width: 160px;
+    min-width: 160px;
   }
 
+  .small-card__title > h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .small-card__photo > img {
+    width: 200px;
+    min-width: 200px;
+  }
+
+  .small-card__title > h1 {
+    font-size: 25px;
+  }
 }

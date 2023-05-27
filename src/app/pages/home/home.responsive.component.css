@@ -16,6 +16,7 @@
   .articles__others{
     margin-top: 0;
     padding: 0;
+    justify-content: start;
   }
 
 }
